@@ -5,7 +5,7 @@
 	"keywords": [
 		"algorithm", "dijkstra"
 	],
-	"homepage": "https://github.com/fisharebest/algorithm",
+	"homepage": "https://github.com/loganfreeman/php-algorithms",
 	"license": "GPL-3.0+",
 	"support": {
 			"issues": "https://github.com/fisharebest/algorithm/issues"
