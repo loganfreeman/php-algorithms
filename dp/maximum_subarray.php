@@ -1,9 +1,5 @@
 <?php
 /**
- * @author:wusuopubupt
- * @date:2013-10-16
- * @return mixed $max:the sum of miximum subarray
- * @from:CLRS 4.1 the miximum subarray problem
  * 
  * Find the miximum subarray
  * 
