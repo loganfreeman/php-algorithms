@@ -4,8 +4,60 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5edaf695687ee17e241fc3c327cfc1b9",
-    "packages": [],
+    "hash": "86530afd50a7d757eea3fce5b35d7839",
+    "packages": [
+        {
+            "name": "webd/stats",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tdebatty/php-stats.git",
+                "reference": "44935d63bd20dded3b8235a38aa7bd4df712aca7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tdebatty/php-stats/zipball/44935d63bd20dded3b8235a38aa7bd4df712aca7",
+                "reference": "44935d63bd20dded3b8235a38aa7bd4df712aca7",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "A library for computing statistics",
+            "time": "2013-08-22 15:35:58"
+        },
+        {
+            "name": "webd/vectors",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tdebatty/php-vector-matrix.git",
+                "reference": "79e8855dfc0d2bec15de24a521a74b32ac5c4dcb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tdebatty/php-vector-matrix/zipball/79e8855dfc0d2bec15de24a521a74b32ac5c4dcb",
+                "reference": "79e8855dfc0d2bec15de24a521a74b32ac5c4dcb",
+                "shasum": ""
+            },
+            "require": {
+                "webd/stats": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "A library for vectors and matrices algebra",
+            "time": "2013-08-21 10:20:05"
+        }
+    ],
     "packages-dev": [
         {
             "name": "doctrine/instantiator",
@@ -1424,7 +1476,10 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "webd/vectors": 20,
+        "webd/stats": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
