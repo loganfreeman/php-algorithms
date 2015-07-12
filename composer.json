@@ -7,11 +7,6 @@
 	],
 	"homepage": "https://github.com/fisharebest/algorithm",
 	"license": "GPL-3.0+",
-	"authors": [{
-			"name": "Greg Roach",
-			"email": "greg@subaqua.co.uk",
-			"role": "Developer"
-	}],
 	"support": {
 			"issues": "https://github.com/fisharebest/algorithm/issues"
 	},
@@ -24,15 +19,8 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Fisharebest\\Algorithm\\": "src/"
+			"Algorithm\\": "src/"
 		}
-	},
-	"scripts": {
-		"post-install-cmd": [
-			"composer dump-autoload --optimize"
-		],
-		"post-update-cmd": [
-			"composer dump-autoload --optimize"
-		]
 	}
+	
 }

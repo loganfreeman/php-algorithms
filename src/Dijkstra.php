@@ -1,5 +1,5 @@
 <?php
-namespace Fisharebest\Algorithm;
+namespace Algorithm;
 /**
  * @package   fisharebest/algorithm
  * @author    Greg Roach <greg@subaqua.co.uk>
