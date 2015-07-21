@@ -15,7 +15,8 @@
 		"webd/vectors":   "dev-master",
 		"webd/stats":   "dev-master",
 		"nategood/httpful": "*",
-		"rmccue/requests": ">=1.0"
+		"rmccue/requests": ">=1.0",
+		"clue/graph": "~0.9.0"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "*",
